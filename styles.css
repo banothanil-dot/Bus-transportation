@@ -1,0 +1,65 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+header {
+    text-align: center;
+    padding: 10px;
+    background-color: #f8f9fa;
+}
+.body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-image: url('cbitImg.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.login-box {
+    background: rgba(255, 255, 255, 0.5); /* Semi-transparent white background */
+    backdrop-filter: blur(10px); /* Blur effect */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+}
+.login-box h3 {
+    margin-bottom: 20px;
+}
+.login-box button {
+    border-radius: 50px;
+    padding: 10px 20px;
+    margin: 5px;
+    width: 100%;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.login-box button:hover {
+    background-color: #0056b3;
+}
+.footer{
+    background-color: beige;
+}
+.immg{
+margin-left: 200px;
+height: 100px;
+width: 300px;
+}
+.clg{
+margin-left: 230px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+footer {
+    flex-shrink: 0;
+}
+.container{
+    display: flex;
+}
